@@ -36,6 +36,7 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  color: #65339D;
 }
 
 h3 {
@@ -180,6 +181,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
+  color: #fff !important;
+}
+.text-secondary {
   color: #65339D !important;
 }
 
@@ -188,10 +192,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #65339D;
+  color: #fff;
 }
 
 a:hover, a:focus, a:active {
   color: #6B9C33;
 }
+
 
