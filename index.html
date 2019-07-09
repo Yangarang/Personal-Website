@@ -16,14 +16,18 @@
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/resume.css" rel="stylesheet">
   
   <!-- Favicon -->                
-  <link runat="server" rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
-  <link runat="server" rel="icon" href="img/favicon.ico" type="image/ico"/
+  <link runat="server" rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+  <link runat="server" rel="icon" href="img/favicon.png" type="image/png"/
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
 
 </head>
 
@@ -40,9 +44,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">	
       <ul class="navbar-nav">
-		<hr class="m-4">
+		<div class="col"><hr class="m-3 mt-5 mb-4" color="white">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
@@ -59,17 +63,18 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
-		<hr class="m-4">
+		<hr class="m-3 mt-4" color="white"></div>
       </ul>
     </div>
   </nav>
 
   <div class="container-fluid p-0">
-
-    <section class="resume-section bg p-3 p-lg-5 d-flex align-items-center" id="about">
+    <section class="resume-section bg p-3 p-lg-5 d-flex align-items-center" id="home">
       <div class="w-100">
+		<hr class="m-0 mb-5" color="white">
         <h1 class="mb-0">
-          <span class="text-primary">Jonathan Yang</span>
+          <span class="text-primary">Jonathan </span>
+          <span class="text-secondary">Yang</span>
         </h1>
         <div class="subheading mb-5">Developer, Consultant, and Student | (973) 960-7812 |
           <a href="mailto:name@email.com">JONATHANJJYANG@GMAIL.COM</a>
@@ -85,6 +90,7 @@
           <a href="https://www.facebook.com/yangarangg">
             <i class="fab fa-facebook-f"></i>
           </a>
+		<hr class="m-0 mt-5" color = "white">
         </div>
       </div>
     </section>
@@ -99,8 +105,10 @@
           <div class="resume-content">
             <h3 class="mb-0">Associate Advisory - Intelligent Automation</h3>
             <div class="subheading mb-3">KPMG</div>
-            <p>- Helped create the data architecture, UI/UX design, and KPI dashboards to automate an ETL process flow using KPMG’s Cognitive Contract Management leveraging the ML capabilities of Google Cloud with Tableau, MSSQL, MYSQL Workbench, and Sketch</p>
-			<p> - (More Coming Soon!) </p>
+            <p>- Helped create the SQL Server data architecture, ER diagrams, UI/UX wireframe designs in Sketch, and Tableau KPI dashboards to help automate an ETL process flow which uses KPMG’s Cognitive Contract Management leveraging the ML capabilities of Google Cloud. </p>
+			<p>- Developed RPA ETL process with UiPath to extract contracts from different formats with OCR, transform extracted data into JSON formats, and loading JSON formatted files into a RESTful Web Service. Helped implement best practices such as dependency injection, configurations, and logging for the web UI written in .NET. </p>
+			<p>- Facilitated client discovery sessions to define project scope requirements to implement potential automation strategies, roadmaps, COEs, and leading practices for a major telecom company. </p>
+			<p>- Collaborated with data scientists, software developers, and industry professionals to help build business automations with RPA, Tableau, ABBYY, VB, and .NET </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-secondary">May 2017 - Present</span>
@@ -110,11 +118,11 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">DevOps Associate</h3>
-            <div class="subheading mb-3">Crum & Forster</div>
-            <p>- Worked closely with business process users to design, analyze, and maintain scalable/efficient automation solutions as a Robotic Process Automation designer using UiPath, Excel VBA and .NET</p>
-			<p>- Built, deployed, configured, and supported various Windows server, client/server, Citrix and web platform applications. </p>
-			<p>- Implemented practices around agile methodology and Atlassian products using Jira, Confluence and Stash/Bitbucket.</p>
-			<p>- Worked on project to replace scheduled SAP BusinessObjects rearrange and EAS report jobs using Autosys, PsExec, Batch scripts, and other automated scripts using C# and SSIS</p>
+            <div class="subheading mb-3">Crum &amp; Forster</div>
+            <p>- Collaborated with business process users to design, develop, analyze, and maintain scalable automation solutions as a Robotic Process Automation designer using UiPath, VBA and .NET.</p>
+			<p>- Worked on project to replace scheduled SAP BusinessObjects rearrange and EAS report jobs using Autosys, PsExec, Batch scripts, C# and SSIS.</p>
+			<p>- Supported Continuous Integration/Continuous Delivery (CI/CD) practices with Jenkins.</p>
+			<p>- Built, deployed, configured, and supported various Windows server, client/server, Citrix and web platform applications. Implemented practices around agile methodology with Atlassian tools such as JIRA, BitBucket, and Confluence.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-secondary">June 2016 - May 2017</span>
@@ -123,8 +131,8 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Intern - Server & Storage</h3>
-            <div class="subheading mb-3">Tiffany & Company</div>
+            <h3 class="mb-0">Intern - Server &amp; Storage</h3>
+            <div class="subheading mb-3">Tiffany &amp; Company</div>
             <p>- Collaborated with the Windows and IBM AIX Server & Storage team to assist with any upgrades/incidents with production and non-production servers.</p>
             <p>- Gained insight in IT infrastructure, virtual machines, security concepts, and networks.</p>
           </div>
@@ -137,8 +145,8 @@
           <div class="resume-content">
             <h3 class="mb-0">Intern - Developer</h3>
             <div class="subheading mb-3">DataMotion</div>
-            <p>- Developed a plugin web search page for the IT department to verify all desired email notifications delivered to any inputted recipients along with a user’s full account record from a SQL database using C# and ASP.Net.</p>
-			<p>- Enhanced a monitor service program utilizing multithreading to monitor multiple desired services in a cluster service using Visual Basic</p>
+            <p>- Developed a plugin web search page for the IT department to verify all desired email notifications delivered to any inputted recipients along with a user’s full account record from a SQL database using C#, ASP.NET, and SQL.</p>
+			<p>- Enhanced a monitor service program, Nagios, by utilizing multithreading to monitor multiple desired services in a cluster service using Visual Basic.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-secondary">May 2014 - August 2014</span>
@@ -158,7 +166,6 @@
             <h3 class="mb-0">Rutgers University</h3>
             <div class="subheading mb-3">Bachelor of Science - Electrical & Computer Engineering</div>
             <div>Honors: Magna Cum Laude</div>
-            <p>Society of Asian Scientists and Engineer - Marketing Chair</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-secondary">September 2012 - May 2016</span>
@@ -169,8 +176,6 @@
           <div class="resume-content">
             <h3 class="mb-0">Millburn High School</h3>
             <div class="subheading mb-3"> High School Diploma </div>
-			<div> Varsity Swimming Team</div>
-			<p> Key Club - Webmaster </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-secondary">September 2008 - May 2012</span>
@@ -186,59 +191,97 @@
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-3">Programming Languages</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+		  <i class="devicon-csharp-plain"></i>
           </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+		  <li class="list-inline-item">
+		  <i class="devicon-cplusplus-plain"></i>
           </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+		  <li class="list-inline-item">
+		  <i class="devicon-java-plain"></i>
           </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
+		  <li class="list-inline-item">
+		  <i class="devicon-mysql-plain"></i>
           </li>
         </ul>
-
-        <div class="subheading mb-3">Workflow</div>
+		<ul class="fa-ul mb-0">
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            C#</li>
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            Java</li>
+		  <li>
+            <i class="fa fa-angle-double-right"></i>
+            C++</li>
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            Visual Basic</li>
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            Tableau</li>
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            SQL</li>          
+		  <li>
+            <i class="fa fa-angle-double-right"></i>
+            MySQL</li>            
+		  <li>       
+			<i class="fa fa-angle-double-right"></i>
+            HTML/CSS</li>
+        </ul>
+		
+        <div class="subheading mb-1 mt-3">Robotic Process Automation (RPA)</div>
+		  <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            UiPath</li>
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            Automation Anywhere</li>
+        </ul>
+		<div class="subheading mb-1 mt-3">Graphic Design</div>
+		  <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            Adobe Photoshop</li>
+          <li>
+            <i class="fa fa-angle-double-right"></i>
+            GIMP</li>
+          <li>
+			<i class="fa fa-angle-double-right"></i>
+            Krita</li>
+		  <li>
+			<i class="fa fa-angle-double-right"></i>
+            Sketch</li>
+        </ul>
+		<div class="subheading mb-1 mt-3">Other Software/Tools</div>
+		  <ul class="fa-ul mb-0">
+          <li>
+           <i class="fa fa-angle-double-right"></i>
+            MIPS Assembly</li>
+          <li>
+           <i class="fa fa-angle-double-right"></i>
+            MATLAB</li>
+		  <li>
+           <i class="fa fa-angle-double-right"></i>
+            OrCAD PSPice</li>
+        </ul>
+        <div class="subheading mb-1 mt-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
+            <i class="fa fa-check"></i>
+            CI/CD Practices</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
+            <i class="fa fa-check"></i>
+            JIRA, Confluence, BitBucket, TFS</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
+            <i class="fa fa-check"></i>
+            Management Consulting and Advisory</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
+            <i class="fa fa-check"></i>
             Agile Development &amp; Scrum</li>
         </ul>
       </div>
@@ -249,7 +292,20 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
-		<p> Coming Soon </p>
+        <a href="https://github.com/carbonroast/Capstone/tree/master/Capstone2016ver2">
+		<div class="subheading mb-0">ECE Senior Capstone Design - Project Pet</div>
+		</a>
+            <p>Co-designed the foundation of an Android mobile personal pet application for users to care, socialize, and interact with. Technologies used: Java</p>
+        <a href="https://globalgamejam.org/2016/games/10-days-date">			
+		<div class="subheading mb-0">Global Game Jam - 10 Days to Date</div>
+		</a>
+            <p>Attended a Game Jam to create a competitive multiplayer dating simulation game in Unity. Technologies used: Unity, Adobe Photoshop, XML, and C#</p>	
+        <a href="http://eceweb1.rutgers.edu/~marsic/books/SE/projects/OTHER/">
+		<div class="subheading mb-0">Educational Networking Tool for College Students - Creddit</div>
+		</a>
+            <p>Co-created a forum based educational networking website for a software engineering class project. Technologies used: C#, ASP.NET, and MySQL </p>
+		<div class="subheading mb-0">Mobile App Engineering and User Experience Course</div>
+            <p>Co-created a multi-threaded attendance checker Android app automating attendance using bluetooth, SQLite, and location services API for a mobile application engineering course. Technologies used: Java </p>
       </div>
     </section>
 
@@ -258,8 +314,8 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a developer/consultant, I am an avid swimmer and rock climber. I'm currently hooked on top roping, but regularly boulder and am a novice lead climber.</p>
-        <p class="mb-0">When forced indoors, I spend most of my free time playing video games, hosting/joining boardgame nights with friends, working on my latest digital art projects, binging popular Netflix series, catching up on the latest technologies, and playing with my family cat :) </p>
+        <p>Apart from being a developer/consultant, I am an avid swimmer and rock climber. Additionally I spend most of my indoor free time playing video games, hosting/joining boardgame nights with friends, working on my latest digital art projects, binging popular Netflix series, catching up on the latest technologies, and playing with my family cat. </p>
+		<p>Currently watching the third season of Stranger Things! </p>
       </div>
     </section>
 

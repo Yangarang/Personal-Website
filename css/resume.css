@@ -181,22 +181,20 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: #fff !important;
+  color: #ffff !important;
 }
 .text-secondary {
-  color: #65339D !important;
+  color: #835bb0 !important;
 }
 
 .bg {
-  background-color: #343a40;
+  background-color: #343A40;
 }
 
 a {
-  color: #fff;
+  color: #835bb0;
 }
 
 a:hover, a:focus, a:active {
   color: #6B9C33;
 }
-
-
