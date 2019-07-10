@@ -1,6 +1,6 @@
 ## About
 
-Feel free to visit jonathanjyang.com. Personal quick project brush up on CSS and HTML while tinkering with Bootstrap.
+Feel free to visit https://jonathanjyang.com. Personal quick project brush up on CSS and HTML while tinkering with Bootstrap.
 
 Cloned and Edited from https://github.com/BlackrockDigital/startbootstrap-resume
 
